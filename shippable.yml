@@ -21,5 +21,6 @@ matrix:
 
 build:
   ci:
+    - echo $IS_PULL_REQUEST
     - python --version
     - echo $A and $C and $key1
