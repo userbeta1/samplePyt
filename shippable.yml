@@ -5,6 +5,7 @@ env:
  global:
    - foo=bar
    - a=b
+   - secure: BIurqG3tKhSUk/jXFUk3Ql841Opi2McQ7BBh6fexTxGZEhQOXwFepXzWUfRjjslmrBbVRyABbXkGbIQSBGkDDZULPW19WoRotAF92G/RcCXT1UwEu2wR1u9Xuq/SOHV686rMTMYpQtFG8iHCk7isoJUHyNysMoRoOD6PlkPW33L6V2lvyWgy6KZhFmZky7RLKJ/mEqHidJXpOkoGP23d8a2Dw4LUSVkk2C0tNB00Waa+W3ivRcjjAO5Hk/27FCXBgSKUgUl4vT4wvORGBodKUAUygmD8U/OVbkv9VyNky/AMJOSvhhBwBCLTJxPookamtOtI6T3TFxkcLB3nEQykjQ==
 
 # Version number
 python:
@@ -15,4 +16,5 @@ python:
 build:
   ci:
     - python --version
-    - sleep 3m
+    #- sleep 3m
+    - echo $key1
