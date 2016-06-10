@@ -4,3 +4,11 @@ language: python
 # Version number
 python:
   - 2.6
+  
+env:
+  - secure: Me2YkO2UMKv1B9oLH5SVEBjHuSj+IOuq/sQOZD6yCR9fb42diTELQbnGZj/0tqpyWMNlEEziTw5Ny9aPyPqwAcV09hcTmw4nVBB9YLHQLaqfRMVeL94XtXv8wG+X27DqA12epLDV1XmZG4bUl+CYm/WZHtw0UZLwbQlhNUGKk6guPhrjp+cVBZCwvfwJXyNWMXQu3oVLrteSCpeUbBCnZNgMGNrIIcpVVdB0j+stnUU48TtfLvDGlRkMNJv7V6TB7YeSnHANogYOg7IZeXAfJcW1+HSfcrMi0vrMHeoxWodh0v6KODfVEwbt021N9jM8J6v9uWBnMSZhTkrMrO1rSw==
+
+build:
+ ci:
+   - echo $foo
+  
