@@ -11,4 +11,4 @@ env:
 build:
  ci:
    - echo $foo
-  
+ cache: true
